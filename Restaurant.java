@@ -1,7 +1,3 @@
-/**
- * @(#) Restaurant.java
- */
-
 public class Restaurant
 {
 	private String name;
@@ -10,7 +6,7 @@ public class Restaurant
 	
 	private String city;
 	
-	private int budget;
+	private int budget = 10000;
 	
 	private int reputationPoints;
 	
@@ -58,6 +54,19 @@ public class Restaurant
 	{
 		
 	}
+	
+	public void processOrder( String dish, String beverage, int table )
+	{
+		
+	}
+	
+	
+
+	public void computeReputation( String clientSatisfaction )
+	{
+		
+	}
+	
 	
 	public void processOrder( String dish, String beverage, int table )
 	{

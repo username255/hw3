@@ -1,7 +1,3 @@
-/**
- * @(#) Player.java
- */
-
 public class Player
 {
 	private String name;

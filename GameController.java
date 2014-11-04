@@ -1,7 +1,3 @@
-/**
- * @(#) GameController.java
- */
-
 public class GameController
 {
 	private String employee;
@@ -41,6 +37,19 @@ public class GameController
 	}
 	
 	public void setPrice( double highDCost, double lowDCost, double highBCost, double lowBCost )
+	{
+		
+	}
+	
+	
+
+	public void setDishesQuality( byte highNo, byte lowNo )
+	{
+		
+	}
+	
+	
+	public void setBeveragesQuality( byte highNo, byte lowNo )
 	{
 		
 	}

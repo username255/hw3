@@ -1,7 +1,3 @@
-/**
- * @(#) Employee.java
- */
-
 public class Employee
 {
 	private String name;
@@ -10,19 +6,15 @@ public class Employee
 	
 	private int salary;
 	
-	private Experience experience;
+	private Experience experience = low;
 	
 	public void computeSalary( )
 	{
 		
 	}
 	
-	public void increaseExperience( )
-	{
-		
-	}
 	
-	public void train( )
+public void train( )
 	{
 		
 	}

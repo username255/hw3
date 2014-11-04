@@ -1,7 +1,3 @@
-/**
- * @(#) Orders.java
- */
-
 public class Orders
 {
 	private DateTime time;

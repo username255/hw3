@@ -1,12 +1,8 @@
-/**
- * @(#) MenuItem.java
- */
-
 public class MenuItem
 {
 	private String name;
 	
-	private Quality qualityLevel;
+	private Qualiy qualityLevel;
 	
 	private int price;
 	
