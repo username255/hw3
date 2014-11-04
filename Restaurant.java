@@ -22,7 +22,8 @@ public class Restaurant
 	
 	public void paySuppliers( Double amount )
 	{
-		
+		// just need to take Restaurant.supplierCost as an amount
+		Restaurant.budget = Restaurant.budget - amount;
 	}
 	
 	public void computeReputation( String clientSatisfaction )
@@ -32,12 +33,13 @@ public class Restaurant
 	
 	public void payUtilities( Double amount )
 	{
-		
+		Restaurant.budget = Restaurant.budget - amount;
 	}
 	
 	public void paySalaries( Double amount )
-	{
-		
+	{	
+		amount = Employee.getSalaries();
+		Restaurant.budget = Restaurant.budget - amount;
 	}
 	
 	public void populateTables( )
@@ -52,12 +54,16 @@ public class Restaurant
 	
 	public void payTraining( Double amount )
 	{
-		
+		// will be inside of trainEmployee
 	}
 	
 	public void processOrder( String dish, String beverage, int table )
 	{
-		
+		double dish1=find.price(Menu.Item.dish);
+		double bev1=find.price(Menu.Item.beverage);
+		double orderPrice = dish1+bev1;
+		Restaurant.budget += orderPrice;
+		// + some formulas to add for customer satisfaction
 	}
 	
 	

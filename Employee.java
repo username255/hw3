@@ -10,7 +10,8 @@ public class Employee
 	
 	public void computeSalary( )
 	{
-		
+		double result = Chef.salary + Barman.salary + Waiter.1.salary + Waiter.2.salary + Waiter.3.salary; // in Waiter.i.salary "i" is "id" attribute
+		return result;
 	}
 	
 	
