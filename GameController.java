@@ -55,4 +55,23 @@ public class GameController
 	}
 	
 	
+
+	public String setDishName( )
+	{
+		return null;
+	}
+	
+	
+	public int setDishCalorieCount( )
+	{
+		return 0;
+	}
+	
+	
+	public int setBeverageVolume( )
+	{
+		return 0;
+	}
+	
+	
 }

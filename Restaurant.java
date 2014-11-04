@@ -74,4 +74,17 @@ public class Restaurant
 	}
 	
 	
+
+	public void computeReputation( String clientSatisfaction )
+	{
+		
+	}
+	
+	
+	public void processOrder( String dish, String beverage, int table )
+	{
+		
+	}
+	
+	
 }

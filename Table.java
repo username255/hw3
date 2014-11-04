@@ -9,4 +9,11 @@ public class Table
 		
 	}
 	
+
+	public void assignToWaiter( String waiter )
+	{
+		
+	}
+	
+	
 }
